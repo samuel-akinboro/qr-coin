@@ -1,0 +1,1315 @@
+.content-wrap-action-box{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    height: fit-content;
+    padding:20px 20px 40px 40px;
+    margin-bottom: 40px;
+}
+
+.logs-3-col-box{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'box1 box1'
+                         'box2  box3';
+                         grid-gap: 10px;
+
+}
+
+.log-box-one{
+    background-color: transparent;
+    grid-area: box1;
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.log-box-two{
+    background-color: transparent;
+    width: 49%;
+    height: fit-content;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    padding-bottom: 30px;
+    min-height: 180px;
+}
+
+.log-box-three{
+  background-color: transparent;
+    width: 48%;
+    height: fit-content;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    padding-bottom: 30px;
+    min-height: 180px;
+}
+
+.acc-bal-col1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  /* padding-left: 25px; */
+  /* padding-top: 15px; */
+}
+
+.action-images-naira{
+  display: flex;
+  padding-right: 25px;
+}
+
+.action-images-naira img{
+  width: 40px;
+  height: 35px;
+  
+}
+
+.toggle-hide-showAcc{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.data-view-col-box{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+
+.toggle-hide-showAcc input {
+    -webkit-appearance: none;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    background-color: #EAEAEA;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  .toggle-hide-showAcc input:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 15px;
+    width:15px;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  
+  .toggle-hide-showAcc input:checked {
+    background-color: #48C448;
+  
+  }
+  
+  .toggle-hide-showAcc input:checked:before {
+    transform: translate(100%);
+  }
+
+  .acc-bal-7yhgu{
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+.acc-bal-7yu{
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.acc-bal-7yu span{
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.toggle-hide-showAcc{
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.toggle-hide-showAcc input{
+ margin-left:12px;
+}
+
+.imgWrap-naira{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 30px;
+  text-align: center;
+  padding: 6px 20px 9px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.imgWrap-naira-active{
+  background-color: rgba(128, 128, 128, 0.123);
+}
+
+.imgWrap-naira span{
+  font-weight: 600;
+  font-size: 12px;
+}
+.deposit-option-header{
+  margin-top: 10px;
+}
+
+.deposit-option-header h1{
+  font-size: 17px;
+}
+
+.deposit-option-header p{
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+.deposit-options{
+  display: flex;
+  align-items: center;
+  background-color: #F8F8F9;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.deposit-header-1{
+  display: flex;
+  align-items: center;
+  background-color: #F8F8F9;
+  width: 100%;
+  height: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+.deposit-option-body-1{
+  display: flex;
+  flex-direction: column;
+  background-color:#0a1531;
+  width: 100%;
+  height: 95%;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+  border: 1px solid rgba(10, 21, 49, 0.04);
+  border-radius: 10px;
+}
+
+.deposit-option-body-1 h5 {
+  color: #fff;
+  text-align: left;
+  font-size: 1.2rem;
+}
+.deposit-option-body-1 p {
+  color: #fff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.payment-sytem h1{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.payment-sytem p{
+margin-top: 2px;
+font-size: 12px;
+}
+
+.deposit-header-1 img{
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+.deposit-options img{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.withdraw-header{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-top: 19px;
+  width: 90%;
+}
+.widrawTitle{
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.widrawPlus{
+  color: #FFB500;
+  font-weight: 500;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.widrawPlus-1{
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 4px;
+  width: 30%;
+  min-width: 70px;
+  cursor: pointer;
+}
+
+.input-ammount-btn{
+  font-weight: 500;
+  font-size: 0.8em;
+  align-items: center;
+  justify-content: center;
+  width: 12%;
+  min-width: 20px;
+  padding: 12px 5px;
+  height: 100%;
+  border-right: 1px solid rgba(10, 21, 49, 0.21);
+  cursor: pointer;
+}
+
+.input-ammount-icon{
+  font-weight: 500;
+  font-size: 0.8em;
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  min-width: 20px;
+  padding: 12px 5px;
+  height: 100%;
+  border-right: 1px solid rgba(10, 21, 49, 0.21);
+  cursor: pointer;
+}
+
+.header-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  max-width: 210px;
+  min-width: 140px;
+}
+
+.to-address{
+  color: #FFB500;
+  font-weight: 500;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.line-under-1 {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #FFB500;
+  color: #ffb500;
+}
+
+.widrawPlus img{
+  margin-right: -1px;
+  /* padding-top: 10px; */
+  position: relative;
+  top: -2px;
+}
+
+.withdraw-info p{
+  font-size: 0.8em;
+  color: #0A1531;
+  margin-top: 6px;
+}
+
+.withdraw-wrap form{
+  margin-top: 15px;
+  width: 100%;
+}
+
+.input-withdraw-wrap{
+  margin-bottom: 17px;
+}
+.add-wallet-address-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(10, 21, 49, 0.21);
+  width: 100%;
+  margin-bottom: 17px;
+  border-radius: 7px;
+}
+.add-ammount-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(10, 21, 49, 0.21);
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+.add-ammount-1 {
+  text-align: center;
+}
+.arrow-alt-1 {
+  width: 20px;
+}
+.add-wallet-address-1 span {
+  text-align: center;
+}
+.amount-withdraw-wrap{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 13px;
+}
+
+.crypto-bal-1{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 13px;
+  margin-bottom: 15px;
+}
+
+.crypto-bal-1 span{
+  font-size: 0.7em;
+  color: #0a1531;
+  opacity: 0.69;
+}
+
+.amount-withdraw-wrap span{
+  font-size: 0.7em;
+  color: #0a1531;
+  opacity: 0.69;
+}
+
+.withdraw-info{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.input-withdraw-wrap input{
+  height: 45px;
+border-radius: 7px;
+background: #fff;
+border: 1px solid rgba(10, 21, 49, 0.21);
+width: 100%;
+padding-left: 10px;
+color: #0a1531;
+opacity: 0.69;
+font-weight: 500;
+padding: 2px 10px;
+}
+
+.input-address-1 {
+  height: 45px;
+  background: #fff;
+  border: none;
+  border-right: 1px solid rgba(10, 21, 49, 0.21);
+  width: 70%;
+  color: #0a1531;
+  opacity: 0.69;
+  font-weight: 500;
+  padding: 2px 10px;
+}
+
+.input-ammount-1 {
+  height: 45px;
+  background: #fff;
+  border: none;
+  border-right: 1px solid rgba(10, 21, 49, 0.21);
+  width: 45%;
+  min-width: 100px;
+  color: #0a1531;
+  opacity: 0.69;
+  font-weight: 500;
+  padding: 2px 10px;
+}
+
+
+.input-withdraw-wrap select{
+  height: 50px;
+border-radius: 7px;
+background: #fff;
+border: 1px solid rgba(10, 21, 49, 0.21);
+width: 97%;
+color: #0a1531;
+opacity: 0.69;
+font-weight: 500;
+text-indent: 1px;
+padding: 2px 7px;
+}
+
+.send-wthdraw-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.send-now-btn {
+  width: 180px;
+  height: 55px;
+  background: #0d1c3e;
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.upgrade-limit-btn {
+  width: 180px;
+  height: 55px;
+  background: #fff;
+  color: #0d1c3e;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #0d1c3e;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.wthdraw-btn button{
+  width: 153px;
+  height: 55px;
+  background: #0d1c3e;
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.withdraw-header-transations{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 19px;
+  padding-left: 11px;
+  margin-bottom: 21px;
+}
+
+.withdraw-transations-body{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.no-transaction-history {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0;
+}
+
+.icon-no-transaction {
+  width: 10%;
+}
+
+.no-transaction-msg {
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.no-transaction-msg h5, .no-transaction-msg h6 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.tr-icon{
+  width: 10%;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.hr-line-transations{
+  width: 100%;
+  height: 0.8px;
+  background-color: rgba(128, 128, 128, 0.226);
+  position: relative;
+  top: 8px;
+}
+
+.withdraw-details{
+  width: 85%;
+ margin-right: 30px;
+}
+
+.rugw6{
+  display: flex;
+  justify-content: space-between;
+}
+.tr-amount655 h1{
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+
+.tr-amount655 p{
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.tr-amount h1{ 
+font-weight: 600;
+font-size:1.2em;
+text-align: left;
+color: #068d3f;
+font-weight: 500;
+}
+.digitalMoneyBarcode{
+  width: 216px;
+height: 216px;
+background: rgba(10, 21, 49, 0.06);
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.digitalMoneyUsefulLink{
+  width: 90%;
+height: 56px;
+border-radius: 16px;
+background: transparent;
+border: 1px solid #dadce0;
+display: flex;
+margin-top: 15px;
+overflow: hidden;
+margin-bottom: 15px;
+}
+
+.digitalMoneyUsefulLink input{
+  width: 70%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid #dadce0;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.digitalMoneyUsefulLink-img{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding: 0 5px 0 10px;
+}
+
+
+
+.digitalMoneyUsefulLink .digitalMoneyUsefulLink-img img{
+    width: 45%;
+    height: 24%;
+    background-size: contain;
+    cursor: pointer;
+    
+}
+
+.hero-section {
+  background-image:url("./Assets//body-back.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #0A1531;
+  padding: 0 70px 0 70px;
+}
+
+.app-home-page-wrap{
+  padding: 0 70px 0 70px;
+}
+.home-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+}
+
+.home-nav-ceter-links ul {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.home-nav-ceter-links ul li  {
+ color: white;
+ margin-right: 35px;
+ list-style-type: none;
+}
+
+  .access-home{
+    display: flex;
+  }
+  .mobile-icon {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 960px) {
+    .home-nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 90px;
+    }
+    .mobile-icon {
+      display: block;
+    }
+    .home-nav-ceter-links ul {
+      flex-direction: column;
+      width: 90%;
+      height: 250px;
+      position: absolute;
+      top: 90px;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      background:  #0a1531;
+      z-index: 1;
+    }
+    .access-home{
+      flex-direction: column;
+      width: 90%;
+      height: fit-content;
+      padding-top: 15px;
+      position: absolute;
+      top: 340px;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      background:  #0a1531;
+      z-index: 1;
+    }
+    .access-home button{
+      padding: 10px;
+      margin: 20px 10px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .access-home button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .access-home button:first-child{
+    background-color: transparent;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .access-home button:last-child{
+border-radius: 4px;
+background: transparent;
+border: 0.5px solid rgba(255, 255, 255, 0.719);
+color: white;
+border-width: 1px;
+  }
+.hero-text{
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.hero-col-one {
+  width: 50%;
+  height: 100%;
+}
+.hero-col-one h1{
+font-weight: bold;
+font-size:52px;
+line-height: 89px;
+text-align: left;
+color: #fff;
+margin-top: 0;
+}
+
+.hero-col-one p{
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  color: #fff;
+  opacity: 0.63;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  }
+
+  .hero-col-one  button{
+    width: 260px;
+height: 69px;
+border-radius: 3px;
+background: #ffb500;
+border: none;
+color: white;
+font-weight: 500;
+font-size: 20px;
+  }
+
+  .hero-col-two{
+    width: 40%;
+    height: 90%;
+  border-radius: 5px;
+background: transparent;
+filter: drop-shadow(0px 3px 26px rgba(0, 0, 0, 0.11));
+backdrop-filter: blur(48.69820022583008px);
+--webkit-backdrop-filter: blur(48.69820022583008px);
+background-color: rgba(255, 255, 255, 0.918);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+  }
+
+  .home-input-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 10px 40px;
+    width: 100%;
+  }
+
+  .home-input-wrap div{
+    display: flex;
+    height: 60px;
+    border-radius: 5px;
+    width: 100%;
+    
+  }
+
+  .home-input-wrap div input,select{
+    margin: 0;
+    border: none;
+    width: 50%;
+    height: 100%;
+    padding: 10px 10px 10px 20px;
+font-weight: normal;
+font-size: 19px;
+line-height: 146px;
+text-align: left;
+color: #0c1a3b;
+opacity: 0.81;
+background: #D9DCE2;
+
+  }
+
+  .home-input-wrap div input{
+    border-radius:  0 7px 7px 0;
+
+  }
+
+  .home-input-wrap div select{
+    border-radius:  7px 0px 0px 7px;
+
+  }
+
+  .home-input-wrap  label{
+font-weight: bold;
+font-size: 19px;
+color: #484848;
+  }
+
+  .submit-home{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+  .submit-home button{
+    width: 85%;
+height: 69px;
+border-radius: 7px;
+background: #ffb500;
+border: none;
+color: white;
+font-weight: 500;
+outline: none;
+position: relative;
+font-size: 22px;
+  }
+
+  .submit-home button img{
+  position: absolute;
+  right: 0;
+  padding-right: 40px;
+  width: 70px;
+  }
+
+  .about-QCOIN-home{
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+
+  .about-QCOIN-home .k68s{
+   text-align: center;
+font-weight: normal;
+font-size: 35px;
+color: #193367;
+margin-bottom: 45px;
+  }
+
+  .about-QCOIN-home .utl87{
+    font-size: 30px ;
+    margin-top: 110px;
+  }
+
+  .fancy-circle-img-home{
+    position: relative;
+  }
+
+  .fancy-circle-img-home img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    
+  }
+
+  .about-grid-sec-home{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+    height: 300px;
+  }
+
+  .about-grid-sec-home .about-grid-col1{
+   width: 50%;
+  }
+
+  .about-grid-sec-home .about-grid-col2{
+    width: 40%;
+   height: 100%;
+   }
+
+   .about-grid-sec-home .about-grid-col2 img{
+  width: 80%;
+    height: 100%;
+   }
+
+   .about-grid-col1 h1{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left;
+    color: #193367;
+    margin-bottom: 20px;
+   }
+
+   .footer-image-sec{
+     background-image: url(./Assets/footer-image.svg);
+     width: 100%;
+     height: 840px;
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+
+
+
+   /* RESPONSIVE DESIGN */
+   @media(max-width:954px){
+    .hero-section {
+      height: 1100px;
+      padding:10px;
+  }
+  .mobile-icon{
+    margin-right: 15px;
+  }
+
+  .fancy-circle-img-home{
+    display: none;
+  }
+
+  .hero-col-one h1 {
+    font-size: 45px;
+    line-height: 59px;
+}
+  
+     .hero-text {
+      display: flex;
+      height: 80vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      flex-direction: column;
+  }
+  
+  .hero-col-one {
+    width: 90%;
+    margin-top: 120px;
+  }
+  
+  
+  .hero-col-two {
+    width: 90%;
+    height: 90%;
+    margin-top: 30px;
+  }
+   }
+
+   @media(max-width:640px){
+   .about-grid-sec-home {
+    flex-direction: column-reverse;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.reverse-grid-responsive1 {
+  flex-direction: column-reverse;
+}
+
+.reverse-grid-responsive2 {
+  flex-direction: column;
+}
+
+.about-grid-sec-home .about-grid-col2 img {
+ display: none;
+
+}
+
+.about-grid-sec-home .responsive-img1 {
+
+  background-image: url(./Assets/img22.png);
+  width: 90%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+ }
+
+ .about-grid-sec-home .responsive-img2 {
+
+  background-image: url(./Assets/img33.png);
+  width: 90%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+ }
+
+ .about-grid-sec-home .responsive-img3 {
+
+  background-image: url(./Assets/img44.png);
+  width: 90%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+ }
+
+ .app-home-page-wrap {
+  padding: 10px;
+}
+
+.about-QCOIN-home .utl87 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+
+
+.about-grid-sec-home .about-grid-col1 {
+  width: 90%;
+  margin-top: 30px;
+    margin-bottom: 45px;
+}
+   }
+
+   @media(max-width:500px){
+   .hero-col-one h1 {
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 53px;
+    text-align: left;
+    color: #fff;
+    margin-top: 0;
+}
+}
+
+@media(max-width:1391px){
+.footer-image-sec{
+ 
+  height: 600px;
+
+}
+
+}
+@media(max-width:700px){
+  .footer-image-sec{
+   
+    max-height:350px;
+  
+  }
+  
+  }
+
+  @media(max-width:378px){
+    .footer-image-sec{
+     
+      max-height:220px;
+    
+    }
+    
+    }
+
+/* App Footer */
+.app-footer {
+  width: 100vw;
+  height: fit-content;
+  background-color: #0a1633;
+  overflow: hidden;
+  padding: 50px 30px 50px 30px;
+}
+.footer-info, .footer-bottom {
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-address, .logo-footer {
+  margin-top: 0px;
+}
+.footer-links {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+} .footer-links a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-bottom {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  width: 20%;
+  min-width: 100px;
+  max-width: 150px;
+}
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+
+.footer-socials a {
+  margin-right: 30px;
+}
+
+.footer-socials a img{
+  width: 30px;
+  height: 30px;
+}
+
+
+@media screen and (max-width: 967px) {
+  .footer-info {
+    flex-direction: column;
+  }
+  .footer-links {
+    flex-direction: column;
+    margin: 30px  0 0 30px;
+  }
+  .footer-bottom {
+    width: 100%;
+    align-self: flex-start;
+  }
+  .app-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* Added to Naira */
+.enter-ammount-ngn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+.enter-ammount-ngn input {
+  height: 100%;
+  width: 80%;
+  padding: 0 25px;
+  border: none;
+  background-color: transparent;
+}
+.enter-ammount-ngn span {
+  padding: 13px 15px;
+  border-right: 1px solid rgba(10, 21, 49, 0.21);
+}
+.bottom-desc-text {
+  color: #fff;
+  font-size: 0.7rem;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.pay-now-btn {
+  width: 150px;
+  height: 55px;
+  background: transparent;
+  color: #f5b740;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #f5b740;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.upgrade-limit-btn-1 {
+  width: 180px;
+  height: 55px;
+  background: #f5b740;
+  color: #0a1531;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #0d1c3e;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 967px){
+  .send-wthdraw-btn button{
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+/* Chat Box */
+.chat-box {
+  position: absolute;
+  margin-top: 36px;
+  right: 10px;
+}
+
+
+/* RESPONSIVE Q COIN APP DESIGN BY CODE UI ANDY */
+@media(max-width:731px){
+  .data-view-col-box {
+    flex-direction: column;
+}
+
+.log-box-two {
+  width: 100%;
+ 
+}
+
+.log-box-three {
+  margin-top: 20px;
+  width: 100%;
+
+}
+.content-wrap-action-box {
+  padding: 20px 10px 40px 10px;
+}
+
+
+}
+
+
+@media(max-width:651px){
+  .logs-3-col-box{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .submit-home button img{
+    display: none;
+    }
+
+.log-box-one {
+  background-color: transparent;
+  grid-area: box1;
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid rgba(128, 128, 128, 0.37);
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imgWrap-naira {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 6px 20px 9px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deposit-option-body-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.send-wthdraw-btn{
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-wthdraw-btn button{
+  width: 100%;
+}
+
+}
+
+
+@media (max-width: 407px){
+.hero-text {
+    margin-top: 150px;
+   margin-bottom: 20px;
+}}

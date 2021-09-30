@@ -1,0 +1,398 @@
+.navbar-wrap{
+  background-color: transparent;
+  height:90px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  right:-185px;
+  padding-left: 30px;
+  z-index: 40;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-position{
+  position: relative;
+}
+.navbar-pad{
+  padding-left: 40px;
+}
+
+.sidebar-wrap{
+    height: 100vh;
+    background-color: transparent;
+    width: 200px;
+    position: fixed;
+    z-index: 55;
+}
+
+.backgroundImage-wrap {
+    background-image: url(../../Assets//body.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    /* background-color: #f8f8f8; */
+    background-position: center;
+    position: fixed;
+    z-index: 0;
+  top: 0;
+  background-color: #E8E9EB;
+  
+    
+  }
+
+  .app-container{
+    position: relative;
+	left: 220px;
+	width: calc(100vw - 300px);
+	top: 100px;
+  }
+
+
+
+  .sidebar-list{
+      list-style-type: none;
+      padding-left: 10px;
+  }
+
+  .sidebar-list li{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+     
+  }
+
+  .active-dot-sidebar{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: orange;
+  }
+
+  .sidebar-link{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  }
+
+  .sidebar-chf5{
+      display: flex;
+  }
+
+  .sidebar-i{
+      margin-right: 5px;
+      width: 30px;
+      height: 30px;
+  }
+
+  .active-sidebar-route{
+      background-color: white;
+    
+  }
+
+  .sidbar-link-total{
+      font-weight: 600;
+  }
+
+  .sidbar-link-total span{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.sidebarLogo {
+    margin-top: -18px;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebarLogo img{
+    width: 110px;
+    margin-top: 20px;
+}
+
+.navbar-pad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.account-bal-nav{
+    margin-right: auto;
+}
+
+.avatarIcaon-nav{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nav-actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-actions span{
+    margin-right: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .responsiveSideBar{
+    height: 100vh;
+    background-color: transparent;
+    width: 200px;
+    position: fixed;
+    z-index: 55;
+  }
+  
+  @media(max-width:906px){
+
+    .sidebar-wrap{
+        background-color: white;
+        filter: drop-shadow(10px 1px 5px rgba(128, 128, 128, 0.233));
+    }
+
+    .navbar-wrap{
+        background-color: white;
+        filter: drop-shadow(10px 1px 5px rgba(128, 128, 128, 0.233));
+    }
+    .nav-actions span{
+      margin: 10px;
+    }
+
+    .app-container {
+        position: relative;
+        left: 0;
+        width: 100vw;
+        top: 24px;
+        overflow-x: hidden;
+    }
+
+    .navbar-wrap {
+        height:75px;
+        position: relative;
+        width: 100vw;
+        top: 0;
+        right: 0;
+        padding-left: 10px;
+        z-index: 40;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    .active-sidebar-route{
+        background-color: #0a1531;
+        color: white;
+    }
+    .navbar-pad{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .backgroundImage-wrap{
+        display: none;
+    }
+
+    
+
+    #apiDocs .navRoutes{
+      margin-right: auto;
+      padding-left: 100px;
+    }
+  
+    
+  #apiDocs .navRoutesActions{
+    padding-right: 20px;
+  }
+  
+    
+    #apiDocsWrap .generalPadding{
+      padding-left: 20px;
+      padding-top: 40px;
+    }
+
+    .ham-toggle {
+        display: block;
+      }
+      
+      #apiDocs {
+        justify-content: left;
+      }
+    
+      #apiDocs .navRoutes{
+      display: none;
+      }
+    
+      #apiDocs .navRoutesActions{
+      margin-left: auto;
+      }
+    
+    
+      #apiDocsWrap{
+        width: 100vw;
+        background: #E5E5E5;
+        height: calc(100vh - 75px);
+      
+      
+      }
+    
+      #apiDocsWrap .generalPadding{
+        padding-left: 20px;
+        padding-top: 40px;
+      }
+    
+    
+      .responsiveSideBar{
+    width: 60vw;
+        z-index: 8;
+      }
+    
+      .responsiveSideBarOpen{
+       animation: showbar 500ms ease-in forwards;
+      }
+    
+      .apiDocsCloseSidebar{
+        animation: hidebar 500ms ease-out forwards;
+       }
+    
+      @keyframes showbar {
+        0%{
+          transform: translateX(-500px);
+        }
+    
+        100%{
+          transform: translateX(0);
+        }
+      }
+    
+    
+      @keyframes hidebar {
+        0%{
+          transform: translateX(0);
+        }
+    
+        100%{
+          transform: translateX(-500px);
+        }
+      }
+    .initSidebarState{
+      transform: translateX(-500px);
+    }
+    #ApiHeader{
+      width: 95%;
+    }
+    
+    .navRoutesLogo {
+      margin-left: 0 !important;
+    }
+    
+  }
+  
+  .ApisideDropdown{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  
+  .ApisideDropdown .sidebarHeader-list{
+    font-family: Gotham;
+    cursor: pointer;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  border: 0.277929px solid rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  border-left: none;
+      border-right: none;
+  }
+  
+  .subSidbar-Details{
+    margin-top: 10px;
+    list-style-type: none;
+  }
+  
+  .subSidbar-Details .subSidbar-Details-child{
+    font-family: Gotham;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  }
+  
+  .ham-toggle {
+    display: none;
+  }
+  
+  @media(max-width:611px){
+ 
+
+   
+  }
+  
+  
+  @media(max-width:325px){
+   
+  #apiDocs .navRoutesActions button:last-child{
+    width: 60px;
+    margin-left: 10px;
+   
+  }
+  
+  #apiDocs .navRoutesActions button:first-child{
+    width: 60px;
+  
+   
+  }
+  
+#apiDocs .navRoutesLogo img{
+  width: 70px;
+  margin-left: 13px;
+}
+  
+  
+  #apiDocsWrap .generalPadding{
+  
+    padding-top: 10px;
+  }
+  
+  
+  }

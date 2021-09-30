@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  height: fit-content;
+  
+}
+html{
+  background-color: #F1F1F3;
+  height: fit-content;
+}
+
+@font-face {
+  font-family: AppFont;
+  src: url(../src/Assets/fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: AppFontBold;
+  src: url(../src/Assets/fonts/Nunito-SemiBold.ttf);
+}
+
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  font-family: AppFont;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  font-family: AppFontBold;
+
+}
+p{
+color: #0a1531;
+opacity: 0.88;
+
+}
+
+button,input,select{
+
+  outline: none;
+}
+
+/* Sign Up Page */
+/*===== Colores =====*/
+:root{
+  --bg-color:#f1f1f3;
+  --box-color: #fff;
+  --text-color: #2e2e2e;
+  --btn-color: #48c448;
+  --link-color:  #ffb500;
+
+}
+
+
+
+.nav-container {
+  background-color: #0A1531;
+  padding: 0 70px 0 70px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 650px;
+  min-width: 300px;
+  margin: 20px 0 50px 0;
+  padding: 40px 0;
+  border-radius: 10px;
+  background-color: var(--box-color);
+}
+.sigup-page{
+  background-color: #F1F1F3;
+}
+.lock-imgage {
+  height: 70px;
+}
+.title-text {
+  margin: 15px 0;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.form-main {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.input {
+  width: 100%;
+  font-size: 12px;
+  margin: 10px 0;
+  height: 3.5rem;
+  padding: 0 20px;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid rgba(10, 21, 49, 0.21);
+}
+.password-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: 1px solid;
+  border: 1px solid rgba(10, 21, 49, 0.21);
+}
+.password-wrapper svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+.password {
+  width: 90% !important;
+  border: none !important;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.btn-submit {
+  margin-top: 30px !important;
+  color: #fff;
+  background-color: var(--btn-color);
+  border:none;
+}
+.form-bottom {
+  display: flex;
+}
+.form-bottom div {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.form-bottom a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--link-color);
+}
+.forgot-password {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.forgot-password a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--link-color);
+}
+
+.main-content-body-wrap{
+  background-image: url(./Assets/body.jpeg);
+  width: 100vw;
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-color: #E8E9EB;
+  
+}
+
+button{
+  outline: none !important;
+ 
+}

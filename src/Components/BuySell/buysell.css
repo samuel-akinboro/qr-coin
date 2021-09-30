@@ -1,0 +1,186 @@
+h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+h6 {
+    font-size: 0.8rem;
+    margin: 10px;
+    color: #d4d5db;
+}
+p {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+/* .outer-container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* max-width: 810px; */
+    /* min-width: 380px; */
+    /* margin: 20px 0 50px 0; */
+    /* border-radius: 8px;
+    /*background-color: #fff;
+} */
+/* .inner-container-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 40px 0px;
+    padding: 40px;
+    justify-content: center;
+    border: 1px solid #ecedef;
+    border-radius: 8px;
+} */
+.buy-sell-header {
+    margin: 15px 0;
+}
+.buy-sell-header h5 {
+    margin-bottom: 20px;
+}
+.buy-sell-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.button-toggle {
+    width: 15%;
+    min-width: 80px;
+    max-width: 100px;
+    padding: 10px;
+    color: #d4d5db;
+    border: 1px rgba(10, 21, 49, 0.21) solid;
+}
+.button-buy {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.button-sell {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.buy-sell-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.buy-sell-input-container > div {
+    width: 100%;
+    margin: 0 5px;
+}
+@media screen and (max-width: 960px) {
+    .buy-sell-input-container {
+        flex-direction: column;
+    }
+    .buy-sell-input-container > div {
+        width: 100%;
+    }
+}
+.input-select {
+    width: 100%;
+    min-width: 135px;
+    height: 50px;
+    margin-bottom: 40px;
+    font-size: 0.7rem;
+    border: 1px solid rgba(10, 21, 49, 0.21);
+    border-radius: 8px;
+}
+.input-left-hand-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4px;
+}
+.input-left-hand-side > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.input-right-hand-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+.input-right-hand-side > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+.input-select select {
+    width: 95%;
+    background-color: transparent;
+    margin-right: 10px;
+    font-size: 0.8rem;
+}
+.buy-sell-amount-container {
+    width: 100%;
+}
+.input-feild-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 170px;
+    height: 50px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+}
+.currency-holder {
+    color: #fff;
+    background-color: #ffb500;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.amount-holder {
+    width: 95%;
+    height: 100%;
+    padding-left: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(10, 21, 49, 0.21);
+    border-top: 1px solid rgba(10, 21, 49, 0.21);
+    border-right: 1px solid rgba(10, 21, 49, 0.21);
+    border-left: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    min-width: 170px;
+}
+.input-note {
+    border: none;
+}
+.input-note input {
+    width: 100%;
+    min-width: 170px;
+    padding: 0 20px;
+    margin: 30px 0;
+    font-size: 0.8rem;
+    height: 50px;
+    border: 1px solid rgba(10, 21, 49, 0.21);
+    border-radius: 8px;
+}
+.submit-btn button {
+    height: 50px;
+    width: 30%;
+    min-width: 120px;
+    max-width: 180px;
+    color: #fff;
+    background-color: #0d1c3e;
+    border-color: #0d1c3e;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 967px) {
+    .submit-btn button {
+        width: 100%;
+        min-width: 120px;
+        max-width: 999px;
+    }
+}
